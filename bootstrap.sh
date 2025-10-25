@@ -12,3 +12,7 @@ sudo sh ./get-docker.sh
 
 # Install portainer
 
+# Install an mqtt broker
+
+# Install an mqtt to timescaledb with https://github.com/emqx/mqtt-to-timescaledb
+
