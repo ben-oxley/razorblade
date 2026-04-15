@@ -6,11 +6,11 @@ Wants=mosquitto.service
 
 [Service]
 Type=simple
-User=your_username
+User=blade
 # Set this to the directory where your script lives
-WorkingDirectory=/home/your_username/scripts
+WorkingDirectory=/home/blade/scripts
 # Use the full path to the uv binary
-ExecStart=/home/your_username/.cargo/bin/uv run mqtt_to_postgres.py
+ExecStart=/home/blade/.local/bin/uv run mqtt_to_postgres.py
 
 # Restart logic
 Restart=always
