@@ -12,7 +12,7 @@ import time
 import sys
 
 # --- Configuration ---
-DB_CONFIG = "dbname=your_db user=your_user password=your_password host=localhost"
+DB_CONFIG = "dbname=postgres user=postgres password=password host=localhost"
 MQTT_BROKER = "localhost"
 MQTT_PORT = 1883
 
